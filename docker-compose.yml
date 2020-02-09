@@ -1,0 +1,17 @@
+quake3-dm:
+  image: joernahrens/q3-docker
+  restart: always
+  ports:
+    - "27960:27960/udp"
+  volumes:
+    - ./pak0.pk3:/usr/share/games/quake3/baseq3/pak0.pk3
+    - ./dedicated_dm.cfg:/usr/share/games/quake3/baseq3/server.cfg
+
+quake3-ctf:
+  image: joernahrens/q3-docker
+  restart: always
+  ports:
+    - "27961:27960/udp"
+  volumes:
+    - ./pak0.pk3:/usr/share/games/quake3/baseq3/pak0.pk3
+    - ./dedicated_ctf.cfg:/usr/share/games/quake3/baseq3/server.cfg

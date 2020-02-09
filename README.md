@@ -1,8 +1,11 @@
+## Quake 3 Dedicated Server Image
 
-![Quake 3](https://raw.githubusercontent.com/InAnimaTe/docker-quake3/master/quake_logo.jpg)
+This should be enough: 
 
+1. Copy pak0.pk3 into this directory
+2. run `make lan`
+3. Enjoy 🚀
 
-### Quake 3 Dedicated Server Image
 
 A fancy containerized [quake3](https://en.wikipedia.org/wiki/Quake_III_Arena) dedicated server container. Get playing in no time!
 
